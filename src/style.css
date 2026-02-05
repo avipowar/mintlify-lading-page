@@ -13,7 +13,6 @@
 .hero-wrapper {
   background-image: url("https://www.mintlify.com/hero/bg-dark.svg");
   background-size: cover;
-  background-position: center;
   min-height: 100vh;
   color: var(--text-color);
 }
@@ -130,7 +129,7 @@ header {
 }
 
 .hero-badge:hover {
-  background-color: lab(100 0 0 / 0.25);;
+  background-color: lab(100 0 0 / 0.25);
 }
 
 .badge-tag{
@@ -150,8 +149,47 @@ header {
 
 
 .badge-arrow svg {
-    width: 18px;        
-    display: block;     
-    color: white;       
+  width: 18px;        
+  display: block;     
+  color: white;       
+}
+
+.hero-title{
+  margin-top: 35px;
+  font-size: 48px;
+  margin-bottom: 25px;
+}
+
+.hero-description{
+  font-size: 19px;
+  color: var(--text-color);
+  margin-bottom: 25px;
+}
+
+.hero-form{
+  display: flex;
+  align-items: center;
+  background-color: lab(100 0 0 / 0.15);
+  padding: 8px 20px;
+  border-radius: 30px;
+  gap: 30px;
+}
+
+.hero-input{
+  
+ background-color: transparent;
+ border: none;
+ outline: none;
+  width: 200px;
+ font-size: 14px;
+ color: var(--text-color);
+
+}
+
+.hero-submit-btn{
+  padding: 4px 6px;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
 }
 
