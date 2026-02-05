@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+
 }
 
 .hero-wrapper {
@@ -102,3 +103,55 @@ header {
 .btn-transparent:hover {
  background-color: lab(100 0 0 / 0.1);
 }
+
+/* hero-section */
+
+.hero-contenet{
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 80px;
+  width: 100%;
+  cursor: pointer;
+  color: var(--text-color);
+
+}
+
+.hero-badge{
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  background-color: lab(100 0 0 / 0.15);
+  padding: 6px 12px;
+  border-radius: 30px;
+}
+
+.hero-badge:hover {
+  background-color: lab(100 0 0 / 0.25);;
+}
+
+.badge-tag{
+  background-color: lab(51 -41.57 15.35);
+  color: var(--text-color);
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+}
+
+.badge-text{
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.badge-arrow svg {
+    width: 18px;        
+    display: block;     
+    color: white;       
+}
+
