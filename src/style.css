@@ -130,6 +130,7 @@ header {
 
 .hero-badge:hover {
   background-color: lab(100 0 0 / 0.25);
+  background-color: lab(100 0 0 / 0.25);;
 }
 
 .badge-tag{
@@ -191,5 +192,8 @@ header {
   border-radius: 10px;
   border: none;
   font-size: 14px;
+    width: 18px;        
+    display: block;     
+    color: white;       
 }
 
