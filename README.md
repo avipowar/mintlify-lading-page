@@ -1,0 +1,2 @@
+# mintlify-lading-page
+
