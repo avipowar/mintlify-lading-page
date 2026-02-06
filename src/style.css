@@ -1,5 +1,6 @@
 :root {
   --text-color: #ffffff; 
+  --text-color-green: lab(51  -41.57 15.35)
 }
 
 * {
@@ -242,9 +243,13 @@ header {
 
 /* company brand */
 
+.white-section{
+  background-color: #ffffff;
+}
+
 .company-section{
 
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -272,6 +277,54 @@ header {
 #x-logo{
   width: 50px;
   margin-left: 20px;
-  /* height: 10px; */
-  /* border: 2px solid red; */
 }
+
+/* integrate ai way */
+
+.integrate-ai-way{
+  border: 2px solid red;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.integrate-ai-way-description{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  border: 2px solid pink;
+}
+
+.integrate-ai-way-title{
+  color: black;
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.integrate-ai-way-sub-description{
+  color: gray;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.integrate-ai-containers{
+  border: 2px solid greenyellow;
+  margin-top: 50px;
+  display: grid;
+  padding: 0px 100px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.integrate-ai-way-container-1{
+  border: 2px solid blue;
+  margin: 10px 10px;
+  padding: 20px;
+
+}
+
+.integrate-ai-container-1-title{
+  color: var(--text-color-green);
+}
+
