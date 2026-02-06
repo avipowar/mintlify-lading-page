@@ -282,10 +282,10 @@ header {
 /* integrate ai way */
 
 .integrate-ai-way{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding: 20px;
   margin-top: 50px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .integrate-ai-way-description{
@@ -293,7 +293,7 @@ header {
   justify-content: center;
   align-content: center;
   text-align: center;
-  border: 2px solid pink;
+  /* border: 2px solid pink; */
 }
 
 .integrate-ai-way-title{
@@ -310,17 +310,18 @@ header {
 }
 
 .integrate-ai-containers{
-  border: 2px solid greenyellow;
-  margin-top: 50px;
+  /* border: 2px solid greenyellow;  */
+  margin-top: 30px;
   display: grid;
   padding: 0px 100px;
   grid-template-columns: repeat(2, 1fr);
 }
 
 .integrate-ai-way-container-1{
-  border: 2px solid blue;
+  border: 0.5px solid #E5E7EB;
   margin: 10px 10px;
   padding: 20px;
+  border-radius: 20px;
 
 }
 
@@ -328,3 +329,25 @@ header {
   color: var(--text-color-green);
 }
 
+.integrate-ai-container-1-main-title{
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+
+.integrate-ai-container-1-description{
+  color: gray;
+  font-size: 12px;
+  width: 280px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.integrate-ai-container-1-img{
+  margin-left:  45px;
+  width: 350px;
+}
+
+.integrate-ai-container-1-img-2{
+  margin-top: 40px;
+}
