@@ -21,7 +21,7 @@ body {
   width: 100%;
   position: relative;
   background-image: url("https://www.mintlify.com/hero/bg-light.svg");
-  background-size: cover;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: top center;
   mask-image: none; 
@@ -285,7 +285,7 @@ header {
   /* border: 2px solid red; */
   padding: 20px;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 120px;
 }
 
 .integrate-ai-way-description{
@@ -313,7 +313,7 @@ header {
   /* border: 2px solid greenyellow;  */
   margin-top: 30px;
   display: grid;
-  padding: 0px 100px;
+  padding: 0px 80px;
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -351,3 +351,118 @@ header {
 .integrate-ai-container-1-img-2{
   margin-top: 40px;
 }
+
+/* grey section */
+.grey-section{
+  width: 100%;
+  height: 1000px;
+  background-color: #F3F4F6;
+}
+
+.enterprise-reinvention-main-container{
+   margin: 10px 95px;
+}
+
+.enterprise-reinvention-container{
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  padding: 20px;
+  margin: 10px 95px;
+  /* border: 2px solid black; */
+}
+
+
+.enterprise-reinvention-container-title{
+  color: var(--text-color-green);
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.enterprise-reinvention-container-main-title{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.enterprise-reinvention-container-description{
+  color: gray;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#integrate-ai-conatiner-11{
+  /* border: 2px solid blue; */
+  padding: 2px 95px;
+}
+
+.enterprise-reinvention-container-btn{
+  padding: 8px 16px;
+  font-size: 15px;
+  border: none;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 4px;
+  background-color: black;
+  margin-top: 110px;
+  margin-left: 100px;
+}
+
+.enterprise-reinvention-img-container{
+  margin: 10px 100px;
+  padding: 15px;
+}
+
+.enterprise-reinvention-img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+.footer {
+  margin-top: 50px;
+
+    width: 100%;
+    padding: 40px 100px;
+    /* background-color: #1d1b15; */
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    margin-left: 100px;
+}
+
+.footer-column h4 {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 16px;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.footer-column ul li:hover {
+  color: #d1d5db;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  font-size: 13px;
+  color: #9ca3af;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
