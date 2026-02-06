@@ -2,3 +2,4 @@
 
 - crete navbar 
 - create hero section 
+- add company brand 

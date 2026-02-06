@@ -233,9 +233,45 @@ header {
 
 
 .hero-img img {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 20px 60px -10px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(0, 0, 0, 0.05);
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px -10px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* company brand */
+
+.company-section{
+
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* border: 2px solid red; */
+  padding-top: 80px;
+  padding-left: 170px;
+}
+
+.img-section{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+.company-img{
+  margin-bottom: 40px;
+}
+
+.company-img img {
+  width: 100px;
+}
+
+#x-logo{
+  width: 50px;
+  margin-left: 20px;
+  /* height: 10px; */
+  /* border: 2px solid red; */
 }
